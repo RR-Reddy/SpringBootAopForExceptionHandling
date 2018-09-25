@@ -14,13 +14,9 @@ public class MyRunner implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		// TODO Auto-generated method stub
-		
 		System.out.println("------- app start ----------");
 		
 		dao.getEmp();
-		
-		
 		System.out.println("------- app end ----------");
 
 	}
